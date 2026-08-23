@@ -14,3 +14,37 @@ This can make it difficult for eisk analysts to quickly distinguish genuine tran
 
 How might we help payment risk team identify suspicious transactions quickly while clearly explaining why a transaction is risky and what action should be taken ?
 
+## Design Thinking 
+
+### 2.1 Empathize
+
+The primary users of TrustPay AI are payment risk teams and risk analysts who insvestigate suspicious transactions.
+
+### Primary User Risk Analyst
+
+Risk analysts need to:
+
+- Identify suspicios transactions
+- Investigate risky payments
+- Understand why a transaction is considered risky
+- Prioritize high risk cases
+- Make quick Allow, Review, or Block decisions
+
+### User Pain Points
+
+A risk analyst may receive a large number of transaction alerts but still need to determine:
+
+- Why is this transaction suspicious ?
+- Can I trust this risk score ?
+- Is this actually fraud or false positive ?
+- Which transaction should I investigate first ?
+- What action should I take ?
+
+### Key Insight
+
+Risk analysts do not simply need more alerts.
+
+They need:
+
+>**Prioritized, explainable, and actionable risk intelligence.**
+
