@@ -68,3 +68,17 @@ Risk analysts need to understand:
 
 > **Risk teams need clear, prioritized, and explainable risk information to make faster and more trustworthy decisions.**
 
+### 2.2 Define
+
+#### Point of View
+
+> Risk analysts need fast, explainable, and prioritized transaction-risk assessments because they need to distinguish suspicious activity from genuine transactions quickly while reducing false positives.
+
+#### How Might We?
+
+> How might we help payment-risk teams identify suspicious transactions quickly while clearly explaining why a transaction is risky and what action should be taken?
+
+#### Final Problem Definition
+
+> Payment-risk teams need a faster and more explainable way to identify and prioritize suspicious transactions because large numbers of alerts and unclear risk signals can make it difficult to distinguish genuine transactions from suspicious activity and take the right action.
+
