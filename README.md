@@ -86,3 +86,19 @@ Their needs:
 - Cleat explanations when verification is required
 - Easy resolution of suspicious payment situtions
 
+### 2.1.2 User Pain Points
+
+- Large numbers of transaction alerts can make investigate difficult.
+- It can be difficult to prioritize which transaction require immediate attention.
+- A risk score may not clearly explain why a transaction is considered risky.
+- Legitimate transactions may sometimes be flagged as suspicious, creating false positives.
+- Analysts may need to examine multiple transaction signals manually.
+- Making a risk decision quickly can become difficult when relevant information is scattered across different signals.
+
+### Empathy Insights
+
+The core challenge is not simply detecting suspicios transactions.
+
+Risk analysts need to understand **why** a transaction is risky, **which cases matter most**, and **what action should be considered**.
+
+>** Risk teams need clear, prioritized, and explainable risk information to make faster and more trustworthy decisions.**
