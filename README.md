@@ -48,3 +48,40 @@ They need:
 
 >**Prioritized, explainable, and actionable risk intelligence.**
 
+### 2.1.1  Users and Stakeholders
+
+TrustPay AI involves three key stakeholder groups.
+
+### Primary user
+
+Risk analysts investigate suspicious transactions and make decisions about whether transactions should be allowed, reviewed, or blocked.
+
+Their needs include:
+
+- Quickly identify suspicious transactions
+- Understand why a transaction is risky
+- Prioritize important cases
+- Make informed risk decisions
+- Reduce false positives
+
+### Secondary User
+
+Merchants need to protect their business from fraudulent transactions while maintaning a high rate of successful legitimate payments.
+
+Their need:
+
+- Reduce payment fraud
+- Reduce false declines
+- Protect revenue
+- Maintain smooth payment experiences
+
+#### End User
+
+Customer expert payments to be while avoiding unnecessary blocking of legitimate transactions.
+
+Their needs:
+
+- Fast and secure payments
+- Minimal unnecessary payment declines
+- Cleat explanations when verification is required
+- Easy resolution of suspicious payment situtions
