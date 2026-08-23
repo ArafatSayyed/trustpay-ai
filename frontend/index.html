@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TrustPay Fraud Detection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>TrustPay</h1>
+            <p>AI-Powered Transaction Fraud Detection</p>
+        </header>
+        <main class="card">
+            <h2>Check Transaction</h2>
+            <p class="subtitle">
+                Enter transaction details to check whether it may be fraudulent.
+            </p>
+            <form id="predictionForm">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label>Transaction Step</label>
+                        <input type="number" id="step" value="1" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Amount</label>
+                        <input type="number" id="amount" value="1000" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Sender Old Balance</label>
+                        <input type="number" id="oldbalanceOrg" value="5000" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Sender New Balance</label>
+                        <input type="number" id="newbalanceOrig" value="4000" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Receiver Old Balance</label>
+                        <input type="number" id="oldbalanceDest" value="2000" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Receiver New Balance</label>
+                        <input type="number" id="newbalanceDest" value="3000" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Transaction Type</label>
+                        <select id="transactionType" required>
+                            <option value="CASH_OUT">CASH_OUT</option>
+                            <option value="CASH_IN">CASH_IN</option>
+                            <option value="DEBIT">DEBIT</option>
+                            <option value="PAYMENT">PAYMENT</option>
+                            <option value="TRANSFER">TRANSFER</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Flagged Fraud</label>
+                        <select id="isFlaggedFraud">
+                            <option value="0">No</option>
+                            <option value="1">Yes</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="submit">
+                    Check Transaction
+                </button>
+            </form>
+            <div id="loading" class="hidden">
+                Checking transaction...
+            </div>
+            <div id="result" class="result hidden">
+                <h3 id="resultTitle"></h3>
+                <p id="probability"></p>
+            </div>
+        </main>
+        <footer>
+            <p>TrustPay • AI Fraud Detection System</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
